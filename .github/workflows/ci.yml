@@ -26,7 +26,7 @@ jobs:
       - name: Run ESLint (Code Review)
         run: npm run lint
 
-      - name: Run Tests with coverage
+      - name: Run Tests with Coverage Analysis
         run: npm run test:coverage
 
       - name: Run Cyclomatic Complexity Review
